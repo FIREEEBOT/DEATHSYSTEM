@@ -1,1 +1,1 @@
-Worker : python3 -m Sibyl_System
+Userbot : python3 -m Sibyl_System
