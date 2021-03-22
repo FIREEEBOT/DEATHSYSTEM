@@ -1,1 +1,1 @@
-Userbot : python3 -m Sibyl_System
+Userbot : py -m -m Sibyl_System
