@@ -1,1 +1,1 @@
-Worker : __main__.py
+Worker : python3 -m Sibyl_System
