@@ -3,4 +3,4 @@ aiohttp
 motor 
 heroku3
 pillow
-python
+python==3.9.2
