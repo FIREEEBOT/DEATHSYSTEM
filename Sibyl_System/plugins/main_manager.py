@@ -99,7 +99,7 @@ async def scan(event):
         if event.chat.username
         else f"t.me/c/{event.chat.id}/{event.message.id}"
     )
-    await event.reply("Connecting to Sibyl for a cymatic scan.")
+    await event.reply("Connecting to SPK Scanner for a cymatic scan.")
     if req_proof and req_user:
         await replied.forward_to(Sibyl_logs)
         await System.gban(
@@ -141,7 +141,7 @@ async def revive(event):
     if not (await System.ungban(int(user_id), f" By //{(await event.get_sender()).id}")):
         await a.edit('User is not gbanned.')
         return
-    await a.edit("Revert request sent to sibyl. This might take 10minutes or so.")
+    await a.edit("Revert request sent to SPK Scanner. This might take 10 minutes or so.")
 
 
 @System.on(system_cmd(pattern=r"sibyl logs"))
