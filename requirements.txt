@@ -3,4 +3,3 @@ aiohttp
 motor 
 heroku3
 pillow
-python-3.9.0
