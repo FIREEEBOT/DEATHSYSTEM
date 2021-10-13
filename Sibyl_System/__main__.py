@@ -14,7 +14,7 @@ import time
 
 logging.basicConfig(
     format="[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s", level=logging.WARNING
-)
+) 
 
 from Sibyl_System.plugins import to_load
 
@@ -43,19 +43,19 @@ for load in to_load:
 
 @System.on(system_cmd(pattern=r"status", allow_enforcer=True))
 async def status(event):
-    msg = await event.reply("Connecting to Nexus Networking Service")
+    msg = await event.reply("Connecting to ESdeath Networking Service")
     time.sleep(1)
-    await msg.edit("Finding Internet In Nexus Network ▫️▫️▫️▫️▫️▫️")
+    await msg.edit("Finding Internet In ESdeath Network ▫️▫️▫️▫️▫️▫️")
     time.sleep(1)
-    await msg.edit("Finding Internet In Nexus Network ▪️▫️▫️▫️▫️▫️")
+    await msg.edit("Finding Internet In ESdeath Network ▪️▫️▫️▫️▫️▫️")
     time.sleep(1)
-    await msg.edit("Finding Internet In Nexus Network ▪️▪️▫️▫️▫️▫️")
+    await msg.edit("Finding Internet In ESdeath Network ▪️▪️▫️▫️▫️▫️")
     time.sleep(1)
-    await msg.edit("Finding Internet In Nexus Network ▪️▪️▪️▫️▫️▫️")
+    await msg.edit("Finding Internet In ESdeath Network ▪️▪️▪️▫️▫️▫️")
     time.sleep(1)
-    await msg.edit("Finding Internet In Nexus Network ▪️▪️▪️▪️▫️▫️")
+    await msg.edit("Finding Internet In ESdeth Network ▪️▪️▪️▪️▫️▫️")
     time.sleep(1)
-    await msg.edit("Connected To The Fastest Internet Service In Nexus Network ▪️▪️▪️▪️▪️▫️")
+    await msg.edit("Connected To The Fastest Internet Service In ESdeath Network ▪️▪️▪️▪️▪️▫️")
     time.sleep(1)
     await msg.edit("Connecting To Server ▪️▪️▪️▪️▪️▪️")
     time.sleep(1)
