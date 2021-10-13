@@ -11,7 +11,7 @@
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 
 ## A Telethon Userbot to make handling spam easer
-[![Deploy](https://img.shields.io/badge/Deploy%20To-Heroku-blueviolet)](https://dashboard.heroku.com/new?button-url=android-app%3A%2F%2Forg.telegram.messenger%2F&template=https://heroku.com/deploy?template=https://github.com/FIREEEBOT/DEATHSYSTEM)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/FIREEEBOT/DEATHSYSTEM
 ## Config
 Here stuff you need to put in config.py or Environment variables:
 - ` API_ID_KEY` Get from [my.telegram.org/apps](https://my.telegram.org/apps)
