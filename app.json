@@ -10,19 +10,19 @@
    "env": {
       "API_ID_KEY": {
          "description": "id",
-         "value": "2258129"
+         "value": ""
       },
       "API_HASH_KEY": {
          "description": "app hash.",
-         "value": "04a86bfa5590f99dff69619c05303e77"
+         "value": ""
       },
       "STRING_SESSION": {
          "description": "session ",
-         "value": "1BVtsOJcBu0rKCN6KtY0mY3jAGdrUNPK_Nt__OhstmdlmRSiL-2VSvBQFXzy6gfDQlli2NAEr34CvKy38lxeKBjcKUJ-rl8_IvBjWiOBJCZfzBIds24oj-Ui5puS9bYuTAlonuw3GQOwP1i2wFVViCfyEq7zMG-Ko6sohne0tcFYBxB1oFzeoolF_jW5PrjOkyQNBSFVkZtpCGNLapGA1bhmYs40nxy6MhJRStX2IYrgcxjnfaZCPKds0c_TGT-euizq7UleDQtiXy9CXIvtRwchGr8gZu8zHA48UevD19_2hvi-NoaqOHJJcxKZFrffMD0lxIHiScprCp1S4ngEKLGyofZ8kqus="
+         "value": ""
       },    
       "HEROKU_API_KEY": {
          "description": "get from heroku settings.",
-         "value": "2b4d009e-37b9-4662-9de3-67fc35db3c6f"
+         "value": ""
       },      
       "SIBYL": {
          "description": "readme.",
@@ -38,7 +38,7 @@
       },
       "MONGO_DB_URL": {
          "description": "mongodb.com go get it.. see channel infotel autofilter bot tute",
-         "value": "mongodb+srv://opuser:passopuser@cluster0.grrln.mongodb.net/myFirstDatabse?retryWrites=true&w=majority"
+         "value": ""
       },
       "Sibyl_logs": {
          "description": "radme.",
@@ -54,7 +54,7 @@
       },
       "BOT_TOKEN": {
          "description": "get from bot.f",
-         "value": "2095289078:AAHvyO8SpdUWazDLF0p01vqZhB3lHq9DGN8"
+         "value": ""
       },
       "ENV": {
          "description": "Nope. Don't change",
