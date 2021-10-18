@@ -43,19 +43,19 @@ for load in to_load:
 
 @System.on(system_cmd(pattern=r"status", allow_enforcer=True))
 async def status(event):
-    msg = await event.reply("Connecting to ESdeath Networking Service")
+    msg = await event.reply("Connecting to Cyber Networking Service")
     time.sleep(1)
-    await msg.edit("Finding Internet In ESdeath Network ▫️▫️▫️▫️▫️▫️")
+    await msg.edit("Finding Internet In Cyber Network ▫️▫️▫️▫️▫️▫️")
     time.sleep(1)
-    await msg.edit("Finding Internet In ESdeath Network ▪️▫️▫️▫️▫️▫️")
+    await msg.edit("Finding Internet In Cyber Network ▪️▫️▫️▫️▫️▫️")
     time.sleep(1)
-    await msg.edit("Finding Internet In ESdeath Network ▪️▪️▫️▫️▫️▫️")
+    await msg.edit("Finding Internet In Cyber Network ▪️▪️▫️▫️▫️▫️")
     time.sleep(1)
-    await msg.edit("Finding Internet In ESdeath Network ▪️▪️▪️▫️▫️▫️")
+    await msg.edit("Finding Internet In Cyber Network ▪️▪️▪️▫️▫️▫️")
     time.sleep(1)
-    await msg.edit("Finding Internet In ESdeth Network ▪️▪️▪️▪️▫️▫️")
+    await msg.edit("Finding Internet In Cyber Network ▪️▪️▪️▪️▫️▫️")
     time.sleep(1)
-    await msg.edit("Connected To The Fastest Internet Service In ESdeath Network ▪️▪️▪️▪️▪️▫️")
+    await msg.edit("Connected To The Fastest Internet Service In Cyber Network ▪️▪️▪️▪️▪️▫️")
     time.sleep(1)
     await msg.edit("Connecting To Server ▪️▪️▪️▪️▪️▪️")
     time.sleep(1)
@@ -67,7 +67,7 @@ async def status(event):
     await msg.edit(on_string.format(Enforcer=user_status, name=sender.first_name))
 
 
-@System.on(system_cmd(pattern="nexus stats"))
+@System.on(system_cmd(pattern="cyber stats"))
 async def stats(event):
     msg = f"Processed {System.processed} messages since last restart."
     msg += f"\n{len(ENFORCERS)} Enforcers & {len(INSPECTORS)} Inspectors"
@@ -112,7 +112,7 @@ async def main():
             msg += f"\n**{plugin}**\n\n`{FAILED_TO_LOAD[plugin]}`"
         await System.send_message(Sibyl_logs, msg)
     else:
-        await System.send_message(Sibyl_logs, "I'm up!")
+        await System.send_message(Sibyl_logs, "I'm alive!")
     await System.run_until_disconnected()
 
 
