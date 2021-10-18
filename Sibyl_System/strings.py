@@ -1,5 +1,5 @@
 on_string = """
-「 Connected To Nexus System. 」
+「 Connected To Cyber System. 」
 ◦ Usᴇʀ: {name}
 ◦ Rᴀɴᴋ: {Enforcer}
 """
